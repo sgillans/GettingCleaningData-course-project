@@ -2,7 +2,7 @@
 
 The table HAR_avg_data contains the following features:
 
-> activity = one of "WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"  
+ > activity = one of "WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING"
  subjectid = one of 1:30 corresponding to the subjects having the activities producing the measurements
  avgtbodyaccmeanx = Average of tBodyAcc-mean()-X by activity/subjectid.
  avgtbodyaccmeany = Average of tBodyAcc-mean()-Y by activity/subjectid.
@@ -92,7 +92,7 @@ The subjectids performing the activities that give rise to observations come fro
 Respectively for the "train" set.
 
 The procedure (in detail in the accompanying run_analysis.R) is:
-> read the table of activity names from "activities.txt"
+ > read the table of activity names from "activities.txt"
  read the table of features names from "features.txt"
  For "test", "train"
      read the table of observations X_....txt,
